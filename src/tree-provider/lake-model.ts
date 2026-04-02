@@ -2,8 +2,8 @@
 
 import * as vscode from 'vscode';
 import * as path from 'path';
-import Tar from 'tar';
-import Yaml from 'yaml';
+import * as Tar from 'tar';
+import * as Yaml from 'yaml';
 import { mkdirSync, writeFileSync } from 'fs';
 
 export interface ILakeNode {
@@ -237,7 +237,7 @@ export class LakeRoot implements ILakeNode {
         });
       });
     }
-    return new Uint8Array();
+    return new Uint8Array(0);
   }
 }
 

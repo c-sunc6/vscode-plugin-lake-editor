@@ -7,6 +7,7 @@
 			"es6",
 			"DOM"
 		],
+		"types": ["node"],
 		"allowSyntheticDefaultImports": true,
 		"noImplicitAny": false,
 		"strictPropertyInitialization": false,
@@ -15,7 +16,7 @@
 		"skipLibCheck": true,
 		"strict": false /* enable all strict type-checking options */
 		/* Additional Checks */
-		// "noImplicitReturns": true, /* Report error when not all code paths in function return a value. */
+		// "noImplicitReturns": true, /* Report error when not all code paths in function return this._value. */
 		// "noFallthroughCasesInSwitch": true, /* Report errors for fallthrough cases in switch statement. */
 		// "noUnusedParameters": true,  /* Report errors on unused parameters. */
 	},
